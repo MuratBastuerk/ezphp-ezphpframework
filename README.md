@@ -18,4 +18,4 @@ You need minimum configuration in your `index.php`. A sample configuration is gi
 
 ## Start
 
-Start off developing your app by adding Controllers.  
+Start off developing your app by adding Controllers. 
