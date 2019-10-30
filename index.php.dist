@@ -1,0 +1,25 @@
+<?php
+require_once "../vendor/autoload.php";
+
+$configuration = [
+    "Factories" => [
+        "ServiceManagerFactory" => \Mb7\EzPhp\ServiceManager\DI\Factory\SimpleServiceManagerFactory::class,
+    ],
+    "GlobalVariables" => [
+        "E-Mail" => "murat@basturk.de"
+    ],
+    "ApplicationServices" => [
+        "MVCInterface" => function () {
+            $mvc = new \Mb7\EzPhp\Mvc\MVC();
+            $router = new \Mb7\EzPhp\Mvc\Routing\MVCRouter($_SERVER, $_GET, $_POST);
+            $router->setControllerNamespace("Mb7\\EzPhp\\EzPhpFramework\\Controller\\");
+            $view = new \Mb7\EzPhp\Mvc\View\SimpleView(__DIR__ . "/View/");
+            $view->setLayoutBasePath(__DIR__ . "/Layout/");
+            $mvc->setRouter($router);
+            $mvc->setView($view);
+            return $mvc;
+        }
+    ],
+];
+$app = new \Mb7\EzPhp\EzPhpFramework\App($configuration);
+$app->run();

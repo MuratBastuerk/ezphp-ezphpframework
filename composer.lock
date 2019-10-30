@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "caff87c3010a6f1ce03b38af436c9d7e",
+    "packages": [
+        {
+            "name": "mb7/ezphp-mvc",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../ezphp-mvc",
+                "reference": "4a93498111648a1bbe8a0fdac9390a535bf116df"
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "type": "project",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mb7\\EzPhp\\Mvc\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Murat Bastuerk",
+                    "email": "murat@basturk.de"
+                }
+            ],
+            "description": "ez MVC for PHP",
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "mb7/ezphp-router",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../ezphp-router",
+                "reference": "2ba9cfac272f280f101bc534d47e87c2ca568030"
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "type": "project",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mb7\\EzPhp\\Router\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Murat Bastuerk",
+                    "email": "murat@basturk.de"
+                }
+            ],
+            "description": "ez Router for PHP",
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "mb7/ezphp-servicemanager",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../ezphp-servicemanager",
+                "reference": "3af8b2d2ee627d81d67947f04611667ce9727498"
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mb7\\EzPhp\\ServiceManager\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Murat Bastuerk",
+                    "email": "murat@basturk.de"
+                }
+            ],
+            "description": "ez service manager for PHP",
+            "transport-options": {
+                "symlink": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mb7/ezphp-servicemanager": 20,
+        "mb7/ezphp-router": 20,
+        "mb7/ezphp-mvc": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.1"
+    },
+    "platform-dev": []
+}

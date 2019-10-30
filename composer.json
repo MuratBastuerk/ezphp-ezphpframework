@@ -1,0 +1,50 @@
+{
+    "name": "mb7/ezphp-framework",
+    "description": "ezPHP Framework - all you need is an easy framework to begin with.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Murat Bastuerk",
+            "email": "murat@basturk.de"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ezphp-servicemanager",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../ezphp-router",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../ezphp-mvc",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "mb7/ezphp-servicemanager" : "dev-master",
+        "mb7/ezphp-router" : "dev-master",
+        "mb7/ezphp-mvc" : "dev-master",
+        "php" : "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mb7\\EzPhp\\EzPhpFramework\\" : "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
