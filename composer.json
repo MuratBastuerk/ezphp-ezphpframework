@@ -1,7 +1,7 @@
 {
     "name": "mb7/ezphp-framework",
     "description": "ezPHP Framework - all you need is an easy framework to begin with.",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Murat Bastuerk",
