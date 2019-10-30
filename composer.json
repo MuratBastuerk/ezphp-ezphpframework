@@ -34,8 +34,7 @@
     "require": {
         "mb7/ezphp-servicemanager" : "dev-master",
         "mb7/ezphp-router" : "dev-master",
-        "mb7/ezphp-mvc" : "dev-master",
-        "php" : "^7.1"
+        "mb7/ezphp-mvc" : "dev-master"
     },
     "autoload": {
         "psr-4": {

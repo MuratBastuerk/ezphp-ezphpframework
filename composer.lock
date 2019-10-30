@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "caff87c3010a6f1ce03b38af436c9d7e",
+    "content-hash": "4715eae502cca7be2b8bc422b62df83f",
     "packages": [
         {
             "name": "mb7/ezphp-mvc",
@@ -12,12 +12,12 @@
             "dist": {
                 "type": "path",
                 "url": "../ezphp-mvc",
-                "reference": "4a93498111648a1bbe8a0fdac9390a535bf116df"
+                "reference": "5bd6337d1a89ba52b1bfd67f0d23f5774c9dd7a6"
             },
             "require": {
                 "php": "^7.1"
             },
-            "type": "project",
+            "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "0.1-dev"
@@ -45,12 +45,12 @@
             "dist": {
                 "type": "path",
                 "url": "../ezphp-router",
-                "reference": "2ba9cfac272f280f101bc534d47e87c2ca568030"
+                "reference": "fb49c2b3f7a151d0605973ca085d7fa3fca32d73"
             },
             "require": {
                 "php": "^7.1"
             },
-            "type": "project",
+            "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "0.1-dev"
@@ -116,8 +116,6 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": "^7.1"
-    },
+    "platform": [],
     "platform-dev": []
 }
